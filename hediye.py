@@ -39,8 +39,6 @@ def banner():
     '.__ ___/______.__8----'
 	\033[0m''')
 	print(color,col)
-
-
 def genpass():
 	key = 0
 	start = datetime.now()
@@ -120,8 +118,6 @@ use examples:
 	
 if __name__ == "__main__":
 	banner()
-	
-	
 	try:
 		genpass()	
 	except UnicodeDecodeError:
