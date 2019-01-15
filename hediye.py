@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import argparse, os, sys, requests, io
+import argparse, os, sys, requests
 from hashlib import *
 from colorama import *
 from datetime import *
@@ -9,7 +9,7 @@ from datetime import *
 __program__ = 'hediye'
 __version__ = 'v.01'
 __author__ = 'CW'
-__github__ = 'https://github.com/0xR0/Hediye'
+__github__ = 'https://github.com/0xR0/hediye'
 
 def banner():
 	os.system("resize -s 34 95")
@@ -50,7 +50,7 @@ def genpass():
 use examples:
   {0} -k Key
   {0} -v HASH -f Wordlist
-  {0} -o HASH'''.format(__program__ + '.py'))
+  {0} -n HASH'''.format(__program__ + '.py'))
 	parser.add_argument("--hash","-v",help = "Enter Hash Value")
 	parser.add_argument("--file","-f",help = "Enter wordlist")
 	parser.add_argument("--key","-k",help = "Enter Key")
@@ -120,6 +120,7 @@ use examples:
 	
 if __name__ == "__main__":
 	banner()
+	
 	
 	try:
 		genpass()	
