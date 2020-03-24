@@ -25,6 +25,6 @@ python3 hediye.py -n HASH or HASHS FILES / For --> Search Engine (Nitrxgen, Hash
 
 python3 hediye.py -u Check For update
 
-<img src="https://github.com/0xR0/hediye/blob/master/ss/helps.png" >
+<img src="https://github.com/0xR0/hediye/blob/master/ss/helpss.png" >
 
 
