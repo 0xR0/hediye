@@ -23,6 +23,7 @@ python3 hediye.py -v HASH -d Wordlist / For --> Brute Force Attack
 
 python3 hediye.py -n HASH or HASHS FILES / For --> Search Engine (Nitrxgen, Hashtoolkit, Google, Yahoo, Bing, Ask ..)
 
+python3 hediye.py -u Check For update
 
 <img src="https://github.com/0xR0/hediye/blob/master/ss/helps.png" >
 
